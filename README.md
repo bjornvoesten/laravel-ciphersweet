@@ -1,9 +1,5 @@
 # Laravel CipherSweet
 
-[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/bjornvoesten/laravel-ciphersweet.svg?style=flat-square)](https://packagist.org/packages/bjornvoesten/laravel-ciphersweet)
-[![Total Downloads](https://img.shields.io/packagist/dt/bjornvoesten/laravel-ciphersweet.svg?style=flat-square)](https://packagist.org/packages/bjornvoesten/laravel-ciphersweet)
-
 **Laravel CipherSweet** is a [Laravel](https://laravel.com) implementation of [Paragon Initiative Enterprises CipherSweet](https://ciphersweet.paragonie.com) searchable field level encryption.
 
 ![Preview](https://user-images.githubusercontent.com/10741416/68589760-10fae780-048d-11ea-850b-5c7733f0f4f7.png)
