@@ -7,7 +7,7 @@ return [
      * the key before deploying the application and do not change
      * the key with already existing encrypted attributes.!
      */
-    'key' => env('ENCRYPTION_KEY'),
+    'key' => env('CIPHERSWEET_KEY'),
 
     /*
      * You may specify which encryption algorithm has to be used
@@ -15,5 +15,5 @@ return [
      *
      * Supported: "modern", "fips"
      */
-    'crypto' => env('ENCRYPTION_CRYPTO', 'modern'),
+    'crypto' => env('CIPHERSWEET_CRYPTO', 'modern'),
 ];
