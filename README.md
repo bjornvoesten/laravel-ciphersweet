@@ -98,13 +98,7 @@ Alternatively you can define multiple indexes per attribute and and define more 
 
 For more information about the index options see the [documentation](https://ciphersweet.paragonie.com/php/usage).
 
-And make sure you have created the index columns in the database table.
-
-```php
-$table->text('social_security_number');
-$table->string('social_security_number_full_index');
-$table->string('social_security_number_last_four_index');
-```
+And make sure you have created the index columns in the database table!
 
 ### Searching models
 
