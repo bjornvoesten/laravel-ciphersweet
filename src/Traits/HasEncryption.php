@@ -2,14 +2,17 @@
 
 namespace Bjornvoesten\CipherSweet\Traits;
 
-use Illuminate\Database\Eloquent\Model;
-
+/**
+ * @mixin \Illuminate\Database\Eloquent\Model
+ */
 trait HasEncryption
 {
     public static function bootHasEncryption()
     {
-        static::saving(function (Model $model) {
-            $model->encrypt();
+        static::saving(function ($model) {
+            $model->encrypt(
+                $model->getDirty()
+            );
         });
     }
 
