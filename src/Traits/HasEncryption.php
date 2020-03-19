@@ -11,7 +11,7 @@ trait HasEncryption
     {
         static::saving(function ($model) {
             $model->encrypt(
-                $model->getDirty()
+                array_keys($model->getDirty())
             );
         });
     }
