@@ -23,12 +23,12 @@
     },
     "require": {
         "php": "^7.2",
-        "illuminate/database": "^6.0",
+        "illuminate/database": "^6.0|^7",
         "paragonie/ciphersweet": "^2"
     },
     "require-dev": {
         "mockery/mockery": "^1.1",
-        "orchestra/testbench": "^4.0",
+        "orchestra/testbench": "^4.0|^5.1",
         "phpunit/phpunit": "^8.0"
     },
     "extra": {
