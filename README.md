@@ -1,5 +1,7 @@
 # Laravel CipherSweet: Searchable Encrypted Attributes
 
+> Hey! I have to say that I'm not very active maintaining this package, but you may always send pull requests!
+
 **Laravel CipherSweet** is a [Laravel](https://laravel.com) implementation of [Paragon Initiative Enterprises CipherSweet](https://ciphersweet.paragonie.com) searchable field level encryption.
 
 ![Preview](https://user-images.githubusercontent.com/10741416/68589760-10fae780-048d-11ea-850b-5c7733f0f4f7.png)
