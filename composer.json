@@ -23,7 +23,7 @@
     },
     "require": {
         "php": "^7.2",
-        "illuminate/database": "^6.0|^7",
+        "illuminate/database": "^6.0|^7.0|^8.0",
         "paragonie/ciphersweet": "^2"
     },
     "require-dev": {
