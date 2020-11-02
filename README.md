@@ -1,3 +1,7 @@
+This repository has been deprecated in favor of: https://github.com/bjornvoesten/ciphersweet-for-laravel
+
+<hr>
+
 # Laravel CipherSweet: Searchable Encrypted Attributes
 
 > Hey! I have to say that I'm not very active maintaining this package, but you may always send pull requests!
